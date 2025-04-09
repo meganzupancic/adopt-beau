@@ -109,6 +109,31 @@ body {
   .adopt p {
     font-size: 1.1rem;
   }
+
+  .video-section {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .video-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #3a6b4f; /* You can tweak this pastel green-blue color */
+  }
+  
+  .video-container {
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+  }
+  
+  .video-container video {
+    width: 100%;
+    max-width: 450px; /* smaller than before */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
   
   footer {
     text-align: center;
