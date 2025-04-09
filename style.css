@@ -129,10 +129,13 @@ body {
   
   .video-container video {
     width: 100%;
-    max-width: 450px; /* smaller than before */
+    max-width: 320px; /* Smaller than before */
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin: 0 auto; /* Centers it horizontally */
   }
+  
   
   
   footer {
