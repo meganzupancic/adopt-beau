@@ -50,16 +50,10 @@ body {
     font-weight: 900;
   }
 
-  .dog-image1 {
-    width: 500px;
-    height: auto;
-    border-radius: 10px;
-    display: block;
-    margin: 20px auto;
-  }
-  
+  .dog-image1,
   .dog-image2 {
-    width: 700px;
+    width: 100%;
+    max-width: 500px; /* Or whatever max size you want */
     height: auto;
     border-radius: 10px;
     display: block;
