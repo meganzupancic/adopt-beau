@@ -53,11 +53,19 @@ body {
   .dog-image1,
   .dog-image2 {
     width: 100%;
-    max-width: 500px; /* Or whatever max size you want */
+    max-width: 500px;
     height: auto;
     border-radius: 10px;
     display: block;
     margin: 20px auto;
+  }
+  
+  /* Smaller images on phones */
+  @media (max-width: 600px) {
+    .dog-image1,
+    .dog-image2 {
+      max-width: 90%; /* or try 300px */
+    }
   }
   
   section {
