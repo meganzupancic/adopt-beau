@@ -49,6 +49,15 @@ body {
     color: #d10000;
     font-weight: 900;
   }
+
+  .dog-image {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+  }
+  
   
   section {
     background-color: #ffffff;
