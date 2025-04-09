@@ -50,14 +50,21 @@ body {
     font-weight: 900;
   }
 
-  .dog-image {
-    width: 300px;
+  .dog-image1 {
+    width: 500px;
     height: auto;
     border-radius: 10px;
     display: block;
     margin: 20px auto;
   }
   
+  .dog-image2 {
+    width: 700px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+  }
   
   section {
     background-color: #ffffff;
@@ -75,6 +82,26 @@ body {
   .details ul {
     list-style-type: "🐶 ";
     padding-left: 1.2rem;
+  }
+
+  .image-row {
+    display: flex;
+    justify-content: space-between; /* Space between each image */
+    gap: 20px;                      /* Optional spacing between images */
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  .image-row img {
+    width: 30%;                     /* Each image takes up about 1/3 of the row */
+    height: auto;                  /* Maintain image aspect ratio */
+    border-radius: 10px;           /* Smooth, rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Soft shadow for depth */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .image-row img:hover {
+    transform: scale(1.05);        /* Slight zoom on hover */
   }
   
   .adopt p {
